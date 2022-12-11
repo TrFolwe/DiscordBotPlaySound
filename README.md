@@ -2,45 +2,45 @@
 Discord bot with play sound example code
 
 For use<br>
-<code>
+```
 Download rar or git clone https://github.com/TrFolwe/DiscordBotPlaySound.git then npm install
-</code>
+```
 
-<code>const SoundManager = new(require("./utils/SoundManager"))(guild);
-</code>
+```js
+const SoundManager = new(require("./utils/SoundManager"))(guild);
+```
 
 Join Voice Channel<br/>
-<code>
+```js
 SoundManager.joinChannel(channelId);
-</code>
+```
 <br/>
 
 Set audio to played<br/>
-<code>
+```js
 SoundManager.setSound(SoundPath); //example "./sounds/testSound.mp3"
-</code>
-
+```
 Set Sound<br/>
-<code>
+```js
 SoundManager.setSound(SoundPath); //example "./sounds/testSound.mp3"
-</code>
+```
 
 Play Sound<br/>
-<code>
+```js
 SoundManager.play();
-</code>
+```
 
 Pause Sound<br/>
-<code>
+```js
 SoundManager.pause();
-</code>
+```
 
 Resume Sound<br/>
-<code>
+```js
 SoundManager.resume();
-</code>
+```
 
 Disconnect Channel<br/>
-<code>
+```js
 SoundManager.disconnect();
-</code>
+```
